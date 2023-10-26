@@ -1,0 +1,47 @@
+
+  h1, p {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 2rem;
+    margin-bottom: 0;
+  }
+ 
+  p{
+    margin-top: 1rem;
+  }
+  
+
+  body{
+    font-size: 25px;
+    
+  }
+
+
+  form {
+    background-color: purple;
+    color: white;
+    border-radius: 20px;
+    box-shadow: white;
+    max-width: 700px;  
+    padding: 20px;
+    text-align: left;
+    margin: auto;
+  }
+
+  label {
+    display: block;
+   
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
+  
+  
+  textarea {
+    min-height: 3em;
+    resize: vertical;
+  }

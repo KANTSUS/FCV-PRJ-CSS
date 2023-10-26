@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="survey.css ">
     <title>freeCodeCamp Survey Form</title>
 </head>
 <body>
     <h1 id="title">freeCodeCamp Survey Form</h2>
     <p id="description" id="survey-form"> Thank you for taking the time to help us improve the platform</p>
     <form id="survey-form" >
-    
+    <fieldset>
       <label id="name-label">Name<input id="name" type="text" placeholder="Enter your name" required /></label>
       <label id="email-label">Email<input id="email" type="email" placeholder="Enter your email" required ></label>
       <label id="number-label">Age(optional)<input id="number" type="number" placeholder="Age" min="8" max="60"></label>
@@ -24,22 +24,47 @@
                 <option value="4">Prefer not to say</option>
                 <option value="5">Other</option>                
                 </select>'
+                
         </label>
+    </fieldset>
+    <fieldset>
+        <div>
          <label>Would you recommend freeCodeCamp to a friend?
-                <input value="test" name="test" type="radio">Definetly</input>
-                <input value="test" name="test" type="radio">Maybe</input>
-                <input value="test" name="test" type="radio">Not sure</input>
-                <label>
-
-                    <input type="checkbox" value="checkbox1"/>
-                    <input type="checkbox" value="checkbox2"/>
-                    <input type="checkbox" value="checkbox3"/>
-                    <input type="checkbox" value="checkbox4"/>
-
-                    <textarea type="textarea"></textarea>
+            <input value="test" name="test" type="radio">Definetly</input>
+            <input value="test" name="test" type="radio">Maybe</input>
+            <input value="test" name="test" type="radio">Not sure</input>
+            <label>
+            </div>
+            </fieldset>
+            <fieldset>
+                <div>
+                <label><input type="checkbox" value="checkbox1"/>Front-end Projects</label>
+                <label><input type="checkbox" value="checkbox2"/>Back-end Projects</label>
+                <label><input type="checkbox" value="checkbox3"/>Data Visualization</label>
+                <label><input type="checkbox" value="checkbox4"/>Challenges</label>
+                <label><input type="checkbox" value="checkbox4"/>Open Source Community</label>
+                <label><input type="checkbox" value="checkbox4"/>Gitter help rooms</label>
+                <label><input type="checkbox" value="checkbox4"/>Videos</label>
+                <label><input type="checkbox" value="checkbox4"/>City Meetups</label>
+                <label><input type="checkbox" value="checkbox4"/>Wiki</label>
+                <label><input type="checkbox" value="checkbox4"/>Forum</label>
+                <label><input type="checkbox" value="checkbox4"/>Additional Courses</label>
+                    
+            </div>
+                </label>
+            </div>
+                </fieldset>
+                <fieldset>
+                    <label>Any more comments
+                    <textarea type="textarea" height="60px"></textarea>
+                </label>
+                </fieldset>
+                
+                    <button type="submit" value="Submit" id="submit">Submit </button>
+                  
             </form>
             
-        <input type="submit" id="submit"/>
+        
             
      
 </body>
