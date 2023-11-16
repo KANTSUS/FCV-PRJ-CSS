@@ -1,92 +1,98 @@
-html{
-    font-size: 16px;
+* {
+  box-sizing: border-box;
 }
 
-
-body{
-    font-family: 'Open Sans', sans-serif;
+html {
+  font-size: 16px;
 }
 
-.label{
-    border: 2px solid black;
-    width: 270px;
-    margin: 20px auto;
-    padding: 0 7px;
-}
-*{
-    box-sizing: border-box;
+body {
+  font-family: 'Open Sans', sans-serif;
 }
 
-
+.label {
+  border: 2px solid black;
+  width: 270px;
+  margin: 20px auto;
+  padding: 0 7px;
+}
 
 header h1 {
-   
-    text-align: center;
-    margin: -4px 0;
-    letter-spacing: 0.15px;
-  }
-  p{
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-  }
+  text-align: center;
+  margin: -4px 0;
+  letter-spacing: 0.15px
+}
 
-  .divider{
-    border-bottom: 1px solid #888989;
-    margin: 2px 0 ;
-  }
+p {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
 
-  .bold{
-    font-weight: 800;
-  }
+.divider {
+  border-bottom: 1px solid #888989;
+  margin: 2px 0;
+}
 
-  .large{
-    height: 10px;
-    border: 0;
-  }
+.bold {
+  font-weight: 800;
+}
 
-  .large, .mediump{
-    background-color: black;
-  }
+.large {
+  height: 10px;
+}
 
-  .small-text{
-    font-size: 0.85rem;
-  }
+.large, .medium {
+  background-color: black;
+  border: 0;
+}
 
-  .calories-info{
-    justify-content: space-between;
-    display: flex;
-    align-items: flex-end;
+.medium {
+  height: 5px;
+}
 
-  }
+.small-text {
+  font-size: 0.85rem;
+}
 
-  .left-container{
-    margin: -5px -2px;
-    font-weight: 700;
-    font-size: 2em;
-  }
 
-  .calories-info span{
-    font-size: 2.4em;
-    font-weight: 700;
-    margin: -7px -2px;
-  }
+.calories-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
 
-  .medium{
-    height: 5px;
-  }
+.calories-info h2 {
+  margin: 0;
+}
 
-  .indent{
-    margin-left: 1em;
-  }
+.left-container p {
+  margin: -5px -2px;
+  font-size: 2em;
+  font-weight: 700;
+}
 
-  .daily-value p:not(.no-divider){
-    border-bottom: 1px solid #888989;
-  }
+.calories-info span {
+  margin: -7px -2px;
+  font-size: 2.4em;
+  font-weight: 700;
+}
 
-  .double-indent{
-    margin: 2em;
-  }
+.right {
+  justify-content: flex-end;
+}
+
+.indent {
+  margin-left: 1em;
+}
+
+.double-indent {
+  margin-left: 2em;
+}
+
+.daily-value p:not(.no-divider) {
+  border-bottom: 1px solid #888989;
+}
 
   
 .note{
