@@ -270,7 +270,19 @@ footer {
 }
 
 
+@media only screen and (max-width: 1800px) {
+    .project-container {
+        -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 
+@media only screen and (max-width: 1200px) {
+    .project-container {
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
 @media only screen and (max-width: 768px) {
     .project-container {
@@ -289,4 +301,25 @@ footer {
         font-size: 2rem;
     }
 }
+
+@media only screen and (max-width: 568px) {
+    body {
+        line-height: 1.2;
+    }
+}
+
+@media (hover: none) {
+    .project-tile .project-text {
+        top: 100%;
+        left: 0;
+
+        display: block;
+
+        height: auto;
+        padding: 0.5rem 1rem;
+
+        transform: translateY(-100%);
+
+        opacity: 1;
+    }
 
